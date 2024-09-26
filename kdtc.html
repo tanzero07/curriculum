@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KDTC Online Voting</title>
+        <link rel="stylesheet" href="kdtc.css"> 
+</head>
+<body>
+    <div class="vote-container">
+        <h1 align="center">คุณสนใจหลักสูตรวิชาชีพของสาขาใดบ้าง</h1>
+        <div align="center"class="button-group">
+            <button onclick="vote('option1')">สาขาวิชาช่างยนต์</button>
+            <button onclick="vote('option2')">สาขาวิชาช่างกลโรงงาน</button>
+            <button onclick="vote('option3')">สาขาวิชาช่างไฟฟ้ากำลัง</button>
+            <button onclick="vote('option4')">สาขาวิชาช่างก่อสร้าง</button>
+            <button onclick="vote('option5')">สาขาวิชาการบัญชี</button>
+            <button onclick="vote('option6')">สาขาวิชาเทคโนโลยีสารสนเทศ</button>
+            <button onclick="vote('option7')">สาขาวิชาการโรงแรม</button>
+            <button onclick="vote('option8')">หลักสูตรเสริมทักษะ</button>
+        </div>
+        <h2 align="center">รายงานความสนใจ</h2>
+        <div id="result">
+            <div align="center"class="result-item">
+                <span>สาขาวิชาช่างยนต์:</span> <span id="option1-result">0</span> votes
+            </div>
+            <div align="center"class="result-item">
+                <span>สาขาวิชาช่างกลโรงงาน:</span> <span id="option2-result">0</span> votes
+            </div>
+            <div align="center"class="result-item">
+                <span>สาขาวิชาช่างไฟฟ้ากำลัง:</span> <span id="option3-result">0</span> votes
+            </div>
+            <div align="center"class="result-item">
+                <span>สาขาวิชาช่างก่อสร้าง:</span> <span id="option4-result">0</span> votes
+            </div>
+            <div align="center"class="result-item">
+                <span>สาขาวิชาการบัญชี:</span> <span id="option5-result">0</span> votes
+            </div>
+            <div align="center"class="result-item">
+                <span>สาขาวิชาเทคโนโลยีสารสนเทศ:</span> <span id="option6-result">0</span> votes
+            </div>
+            <div align="center"class="result-item">
+                <span>สาขาวิชาการโรงแรม:</span> <span id="option7-result">0</span> votes
+            </div>
+            <div align="center"class="result-item">
+                <span>หลักสูตรเสริมทักษะ:</span> <span id="option8-result">0</span> votes
+            </div> 
+        </div>
+    </div>
+    <script src="kdtc.js"></script>
+</body>
+</html>
