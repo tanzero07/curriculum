@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #83a4d4, #b6fbff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.vote-container {
+    background-color: rgb(250, 250, 252);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    background-color: #d71d93;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.result-item {
+    font-size: 16px;
+    color: #555;
+}
+
+span {
+    font-weight: bold;
+}
